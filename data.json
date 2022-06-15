@@ -1,4 +1,6 @@
-[{
+[
+    
+{
   "attributes": {
     "globalAttributes": "This element's attributes include the global attributes.",
     "localAttributes": [
@@ -1932,7 +1934,7 @@
       },
       {
         "name": "hreflang",
-        "description": "<p>      Indicates the language of the linked resource. Allowed values are defined by <a href= class= rel=>RFC 5646: Tags for Identifying Languages (also known as BCP 47).      Use this attribute only if the <a href= aria-current=><code>href</code> attribute is present.    </p>"
+        "description": "<p>      Indicates the language of the linked resource. Allowed values are defined by RFC 5646: Tags for Identifying Languages (also known as BCP 47).      Use this attribute only if the <a href= aria-current=><code>href</code> attribute is present.    </p>"
       },
       {
         "name": "ping",
@@ -2992,7 +2994,7 @@
       },
       {
         "name": "disableremoteplayback \n    Experimental\n",
-        "description": "<p>A Boolean attribute used to disable the capability of remote playback in devices that are attached using wired (HDMI, DVI, etc.) and wireless technologies (Miracast, Chromecast, DLNA, AirPlay, etc). See <a href= class= rel=>this proposed specification for more information.</p>"
+        "description": "<p>A Boolean attribute used to disable the capability of remote playback in devices that are attached using wired (HDMI, DVI, etc.) and wireless technologies (Miracast, Chromecast, DLNA, AirPlay, etc). See this proposed specification for more information.</p>"
       },
       {
         "name": "loop",
@@ -5161,11 +5163,11 @@
       },
       {
         "name": "autocomplete \n    Non-Standard\n",
-        "description": "<p>This attribute on a <a href= aria-current=><code>&lt;button&gt;</code> is nonstandard and Firefox-specific. Unlike other browsers, <a href= class= rel=>Firefox persists the dynamic disabled state of a <a href= aria-current=><code>&lt;button&gt;</code> across page loads. Setting <code>autocomplete=</code> on the button disables this feature; see <a href= class= rel=>bug&nbsp;654072.</p>"
+        "description": "<p>This attribute on a <a href= aria-current=><code>&lt;button&gt;</code> is nonstandard and Firefox-specific. Unlike other browsers, Firefox persists the dynamic disabled state of a <a href= aria-current=><code>&lt;button&gt;</code> across page loads. Setting <code>autocomplete=</code> on the button disables this feature; see bug&nbsp;654072.</p>"
       },
       {
         "name": "disabled",
-        "description": "<p>This Boolean attribute prevents the user from interacting with the button: it cannot be pressed or focused.</p>    <p>Firefox, unlike other browsers, <a href= class= rel=>persists the dynamic disabled state of a <a href= aria-current=><code>&lt;button&gt;</code> across page loads. Use the <a href= aria-current=><code>autocomplete</code> attribute to control this feature.</p>"
+        "description": "<p>This Boolean attribute prevents the user from interacting with the button: it cannot be pressed or focused.</p>    <p>Firefox, unlike other browsers, persists the dynamic disabled state of a <a href= aria-current=><code>&lt;button&gt;</code> across page loads. Use the <a href= aria-current=><code>autocomplete</code> attribute to control this feature.</p>"
       },
       {
         "name": "form",
@@ -8406,7 +8408,7 @@
     "localAttributes": [
       {
         "name": "height",
-        "description": "<p>The displayed height of the resource, in <a href= class= rel=>CSS pixels. This must be an absolute value; percentages are <em>not</em> allowed.</p>"
+        "description": "<p>The displayed height of the resource, in CSS pixels. This must be an absolute value; percentages are <em>not</em> allowed.</p>"
       },
       {
         "name": "src",
@@ -8418,7 +8420,7 @@
       },
       {
         "name": "width",
-        "description": "<p>The displayed width of the resource, in <a href= class= rel=>CSS pixels. This must be an absolute value; percentages are <em>not</em> allowed.</p>"
+        "description": "<p>The displayed width of the resource, in CSS pixels. This must be an absolute value; percentages are <em>not</em> allowed.</p>"
       }
     ]
   },
@@ -11642,7 +11644,7 @@
       },
       {
         "name": "sandbox",
-        "description": "<p>Applies extra restrictions to the content in the frame. The value of the attribute can either be empty to apply all restrictions, or space-separated tokens to lift particular restrictions:</p>    <ul>      <li><code>allow-downloads-without-user-activation</code> <abbr class= title=>    <span class=>Experimental</span></abbr>: Allows for downloads to occur without a gesture from the user.</li>      <li><code>allow-downloads</code>: Allows for downloads to occur with a gesture from the user.</li>      <li><code>allow-forms</code>: Allows the resource to submit forms. If this keyword is not used, form submission is blocked.</li>      <li><code>allow-modals</code>: Lets the resource <a href= class= rel=>open modal windows.</li>      <li><code>allow-orientation-lock</code>: Lets the resource lock the screen orientation.</li>      <li><code>allow-pointer-lock</code>: Lets the resource use the Pointer Lock API.</li>      <li><code>allow-popups</code>: Allows popups (such as <code>window.open()</code>, <code>target=</code>, or <code>showModalDialog()</code>). If this keyword is not used, the popup will silently fail to open.</li>      <li><code>allow-popups-to-escape-sandbox</code>: Lets the sandboxed document open new windows without those windows inheriting the sandboxing. For example, this can safely sandbox an advertisement without forcing the same restrictions upon the page the ad links to.</li>      <li><code>allow-presentation</code>: Lets the resource start a presentation session.</li>      <li><code>allow-same-origin</code>: If this token is not used, the resource is treated as being from a special origin that always fails the same-origin policy (potentially preventing access to data storage/cookies and some JavaScript APIs).</li>      <li><code>allow-scripts</code>: Lets the resource run scripts (but not create popup windows).</li>      <li><code>allow-storage-access-by-user-activation</code> <abbr class= title=>    <span class=>Experimental</span></abbr>: Lets the resource request access to the parent's storage capabilities with the Storage Access API.</li>      <li><code>allow-top-navigation</code>: Lets the resource navigate the top-level browsing context (the one named <code>_top</code>).</li>      <li><code>allow-top-navigation-by-user-activation</code>: Lets the resource navigate the top-level browsing context, but only if initiated by a user gesture.</li>    </ul>"
+        "description": "<p>Applies extra restrictions to the content in the frame. The value of the attribute can either be empty to apply all restrictions, or space-separated tokens to lift particular restrictions:</p>    <ul>      <li><code>allow-downloads-without-user-activation</code> <abbr class= title=>    <span class=>Experimental</span></abbr>: Allows for downloads to occur without a gesture from the user.</li>      <li><code>allow-downloads</code>: Allows for downloads to occur with a gesture from the user.</li>      <li><code>allow-forms</code>: Allows the resource to submit forms. If this keyword is not used, form submission is blocked.</li>      <li><code>allow-modals</code>: Lets the resource open modal windows.</li>      <li><code>allow-orientation-lock</code>: Lets the resource lock the screen orientation.</li>      <li><code>allow-pointer-lock</code>: Lets the resource use the Pointer Lock API.</li>      <li><code>allow-popups</code>: Allows popups (such as <code>window.open()</code>, <code>target=</code>, or <code>showModalDialog()</code>). If this keyword is not used, the popup will silently fail to open.</li>      <li><code>allow-popups-to-escape-sandbox</code>: Lets the sandboxed document open new windows without those windows inheriting the sandboxing. For example, this can safely sandbox an advertisement without forcing the same restrictions upon the page the ad links to.</li>      <li><code>allow-presentation</code>: Lets the resource start a presentation session.</li>      <li><code>allow-same-origin</code>: If this token is not used, the resource is treated as being from a special origin that always fails the same-origin policy (potentially preventing access to data storage/cookies and some JavaScript APIs).</li>      <li><code>allow-scripts</code>: Lets the resource run scripts (but not create popup windows).</li>      <li><code>allow-storage-access-by-user-activation</code> <abbr class= title=>    <span class=>Experimental</span></abbr>: Lets the resource request access to the parent's storage capabilities with the Storage Access API.</li>      <li><code>allow-top-navigation</code>: Lets the resource navigate the top-level browsing context (the one named <code>_top</code>).</li>      <li><code>allow-top-navigation-by-user-activation</code>: Lets the resource navigate the top-level browsing context, but only if initiated by a user gesture.</li>    </ul>"
       },
       {
         "name": "src",
@@ -13319,7 +13321,7 @@
       },
       {
         "name": "crossorigin",
-        "description": "<p>Indicates if the fetching of the image must be done using a CORS request. Image data from a CORS-enabled image returned from a CORS request can be reused in the <code>&lt;canvas&gt;</code> element without being marked /en-US/docs/Web/HTML/CORS_enabled_image#what_is_a_tainted_canvas.</p>    <p>If the <code>crossorigin</code> attribute is <em>not</em> specified, then a non-CORS request is sent (without the <code>Origin</code> request header), and the browser marks the image as tainted and restricts access to its image data, preventing its usage in <code>&lt;canvas&gt;</code> elements.</p>    <p>If the <code>crossorigin</code> attribute <em>is</em> specified, then a CORS request is sent (with the <code>Origin</code> request header); but if the server does not opt into allowing cross-origin access to the image data by the origin site (by not sending any <code>Access-Control-Allow-Origin</code> response header, or by not including the site's origin in any <code>Access-Control-Allow-Origin</code> response header it does send), then the browser blocks the image from loading, and logs a CORS error to the devtools console.</p>    <p>Allowed values:</p>    <dl>      <dt id=><code>anonymous</code></dt>      <dd>        <p>A CORS request is sent with credentials omitted (that is, no cookies, <a href= class= rel=>X.509 certificates, or <code>Authorization</code> request header).</p>      </dd>      <dt id=><code>use-credentials</code></dt>      <dd>        <p>The CORS request is sent with any credentials included (that is, cookies, X.509 certificates, and the <code>Authorization</code> request header). If the server does not opt into sharing credentials with the origin site (by sending back the <code>Access-Control-Allow-Credentials: true</code> response header), then the browser marks the image as tainted and restricts access to its image data.</p>      </dd>    </dl>    <p>If the attribute has an invalid value, browsers handle it as if the <code>anonymous</code> value was used. See CORS settings attributes for additional information.</p>"
+        "description": "<p>Indicates if the fetching of the image must be done using a CORS request. Image data from a CORS-enabled image returned from a CORS request can be reused in the <code>&lt;canvas&gt;</code> element without being marked /en-US/docs/Web/HTML/CORS_enabled_image#what_is_a_tainted_canvas.</p>    <p>If the <code>crossorigin</code> attribute is <em>not</em> specified, then a non-CORS request is sent (without the <code>Origin</code> request header), and the browser marks the image as tainted and restricts access to its image data, preventing its usage in <code>&lt;canvas&gt;</code> elements.</p>    <p>If the <code>crossorigin</code> attribute <em>is</em> specified, then a CORS request is sent (with the <code>Origin</code> request header); but if the server does not opt into allowing cross-origin access to the image data by the origin site (by not sending any <code>Access-Control-Allow-Origin</code> response header, or by not including the site's origin in any <code>Access-Control-Allow-Origin</code> response header it does send), then the browser blocks the image from loading, and logs a CORS error to the devtools console.</p>    <p>Allowed values:</p>    <dl>      <dt id=><code>anonymous</code></dt>      <dd>        <p>A CORS request is sent with credentials omitted (that is, no cookies, X.509 certificates, or <code>Authorization</code> request header).</p>      </dd>      <dt id=><code>use-credentials</code></dt>      <dd>        <p>The CORS request is sent with any credentials included (that is, cookies, X.509 certificates, and the <code>Authorization</code> request header). If the server does not opt into sharing credentials with the origin site (by sending back the <code>Access-Control-Allow-Credentials: true</code> response header), then the browser marks the image as tainted and restricts access to its image data.</p>      </dd>    </dl>    <p>If the attribute has an invalid value, browsers handle it as if the <code>anonymous</code> value was used. See CORS settings attributes for additional information.</p>"
       },
       {
         "name": "decoding",
@@ -13335,7 +13337,7 @@
       },
       {
         "name": "ismap",
-        "description": "<p>This Boolean attribute indicates that the image is part of a <a href= class= rel=>server-side map. If so, the coordinates where the user clicked on the image are sent to the server.</p>"
+        "description": "<p>This Boolean attribute indicates that the image is part of a server-side map. If so, the coordinates where the user clicked on the image are sent to the server.</p>"
       },
       {
         "name": "loading",
@@ -16228,7 +16230,7 @@
     "localAttributes": [
       {
         "name": "for",
-        "description": "<p>The value of the <code>for</code> attribute must be a single <code>id</code> for a labelable form-related element in the same document as the <code>&lt;label&gt;</code> element. So, any given <code>label</code> element can be associated with only one form control.</p>        <p>The first element in the document with an <code>id</code> attribute matching the value of the <code>for</code> attribute is the <em>labeled control</em> for this <code>label</code> element — if the element with that <code>id</code> is actually a <a href= class= rel=>labelable element. If it is <em>not</em> a labelable element, then the <code>for</code> attribute has no effect. If there are other elements that also match the <code>id</code> value, later in the document, they are not considered.</p>    <p>Multiple <code>label</code> elements can be given the same value for their <code>for</code> attribute; doing so causes the associated form control (the form control that <code>for</code> value references) to have multiple labels.</p>    <div class= id=>      <p><strong>Note:</strong> A <code>&lt;label&gt;</code> element can have both a <code>for</code> attribute and a contained control element, as long as the <code>for</code> attribute points to the contained control element.</p>    </div>"
+        "description": "<p>The value of the <code>for</code> attribute must be a single <code>id</code> for a labelable form-related element in the same document as the <code>&lt;label&gt;</code> element. So, any given <code>label</code> element can be associated with only one form control.</p>        <p>The first element in the document with an <code>id</code> attribute matching the value of the <code>for</code> attribute is the <em>labeled control</em> for this <code>label</code> element — if the element with that <code>id</code> is actually a labelable element. If it is <em>not</em> a labelable element, then the <code>for</code> attribute has no effect. If there are other elements that also match the <code>id</code> value, later in the document, they are not considered.</p>    <p>Multiple <code>label</code> elements can be given the same value for their <code>for</code> attribute; doing so causes the associated form control (the form control that <code>for</code> value references) to have multiple labels.</p>    <div class= id=>      <p><strong>Note:</strong> A <code>&lt;label&gt;</code> element can have both a <code>for</code> attribute and a contained control element, as long as the <code>for</code> attribute points to the contained control element.</p>    </div>"
       }
     ]
   },
@@ -16674,15 +16676,15 @@
       },
       {
         "name": "hreflang",
-        "description": "<p>      This attribute indicates the language of the linked resource.      It is purely advisory.      Allowed values are specified by <a href= class= rel=>RFC 5646: Tags for Identifying Languages (also known as BCP 47).      Use this attribute only if the <code>href</code> attribute is present.    </p>"
+        "description": "<p>      This attribute indicates the language of the linked resource.      It is purely advisory.      Allowed values are specified by RFC 5646: Tags for Identifying Languages (also known as BCP 47).      Use this attribute only if the <code>href</code> attribute is present.    </p>"
       },
       {
         "name": "imagesizes",
-        "description": "<p>For <code>rel=</code> and <code>as=</code> only, the <code>imagesizes</code> attribute is <a href= class= rel=>a sizes attribute that indicates to preload the appropriate resource used by an <code>img</code> element with corresponding values for its <code>srcset</code> and <code>sizes</code> attributes.</p>"
+        "description": "<p>For <code>rel=</code> and <code>as=</code> only, the <code>imagesizes</code> attribute is a sizes attribute that indicates to preload the appropriate resource used by an <code>img</code> element with corresponding values for its <code>srcset</code> and <code>sizes</code> attributes.</p>"
       },
       {
         "name": "imagesrcset",
-        "description": "<p>For <code>rel=</code> and <code>as=</code> only, the <code>imagesrcset</code> attribute is <a href= class= rel=>a sourceset attribute that indicates to preload the appropriate resource used by an <code>img</code> element with corresponding values for its <code>srcset</code> and <code>sizes</code> attributes.</p>"
+        "description": "<p>For <code>rel=</code> and <code>as=</code> only, the <code>imagesrcset</code> attribute is a sourceset attribute that indicates to preload the appropriate resource used by an <code>img</code> element with corresponding values for its <code>srcset</code> and <code>sizes</code> attributes.</p>"
       },
       {
         "name": "integrity \n    Experimental\n",
@@ -19532,7 +19534,7 @@
       },
       {
         "name": "http-equiv",
-        "description": "<p>Defines a pragma directive. The attribute is named <code>http-equiv(alent)</code> because all the allowed values are names of particular HTTP headers:</p>    <ul>      <li>        <code>content-security-policy</code>        Allows page authors to define a content policy for the current page. Content policies mostly specify allowed server origins and script endpoints which help guard against cross-site scripting attacks.      </li>      <li>        <code>content-type</code>        Declares the MIME type and character encoding of the document. If specified, the <code>content</code> attribute must have the value . This is equivalent to a <code>&lt;meta&gt;</code> element with the <a href= aria-current=><code>charset</code> attribute specified, and carries the same restriction on placement within the document. <strong>Note:</strong> Can only be used in documents served with a <code>text/html</code> — not in documents served with an XML MIME type.      </li>      <li>        <code>default-style</code>        Sets the name of the default CSS style sheet set.      </li>      <li>        <code>x-ua-compatible</code>        If specified, the <code>content</code> attribute must have the value . User agents are required to ignore this pragma.      </li>      <li><code>refresh</code> This instruction specifies:        <ul>          <li>The number of seconds until the page should be reloaded - only if the <a href= aria-current=><code>content</code> attribute contains a non-negative integer.</li>          <li>The number of seconds until the page should redirect to another - only if the <a href= aria-current=><code>content</code> attribute contains a non-negative integer followed by the string '<code>;url=</code>', and a valid URL.</li>        </ul>        <h5 id=>Accessibility concerns</h5>Pages set with a <code>refresh</code> value run the risk of having the time interval being too short. People navigating with the aid of assistive technology such as a screen reader may be unable to read through and understand the page's content before being automatically redirected. The abrupt, unannounced updating of the page content may also be disorienting for people experiencing low vision conditions.        <ul>          <li>MDN Understanding WCAG, Guideline 2.1 explanations</li>          <li>MDN Understanding WCAG, Guideline 3.1 explanations</li>          <li><a href= class= rel=>Understanding Success Criterion 2.2.1 | W3C Understanding WCAG 2.0</li>          <li><a href= class= rel=>Understanding Success Criterion 2.2.4 | W3C Understanding WCAG 2.0</li>          <li><a href= class= rel=>Understanding Success Criterion 3.2.5 | W3C Understanding WCAG 2.0</li>        </ul>      </li>    </ul>"
+        "description": "<p>Defines a pragma directive. The attribute is named <code>http-equiv(alent)</code> because all the allowed values are names of particular HTTP headers:</p>    <ul>      <li>        <code>content-security-policy</code>        Allows page authors to define a content policy for the current page. Content policies mostly specify allowed server origins and script endpoints which help guard against cross-site scripting attacks.      </li>      <li>        <code>content-type</code>        Declares the MIME type and character encoding of the document. If specified, the <code>content</code> attribute must have the value . This is equivalent to a <code>&lt;meta&gt;</code> element with the <a href= aria-current=><code>charset</code> attribute specified, and carries the same restriction on placement within the document. <strong>Note:</strong> Can only be used in documents served with a <code>text/html</code> — not in documents served with an XML MIME type.      </li>      <li>        <code>default-style</code>        Sets the name of the default CSS style sheet set.      </li>      <li>        <code>x-ua-compatible</code>        If specified, the <code>content</code> attribute must have the value . User agents are required to ignore this pragma.      </li>      <li><code>refresh</code> This instruction specifies:        <ul>          <li>The number of seconds until the page should be reloaded - only if the <a href= aria-current=><code>content</code> attribute contains a non-negative integer.</li>          <li>The number of seconds until the page should redirect to another - only if the <a href= aria-current=><code>content</code> attribute contains a non-negative integer followed by the string '<code>;url=</code>', and a valid URL.</li>        </ul>        <h5 id=>Accessibility concerns</h5>Pages set with a <code>refresh</code> value run the risk of having the time interval being too short. People navigating with the aid of assistive technology such as a screen reader may be unable to read through and understand the page's content before being automatically redirected. The abrupt, unannounced updating of the page content may also be disorienting for people experiencing low vision conditions.        <ul>          <li>MDN Understanding WCAG, Guideline 2.1 explanations</li>          <li>MDN Understanding WCAG, Guideline 3.1 explanations</li>          <li>Understanding Success Criterion 2.2.1 | W3C Understanding WCAG 2.0</li>          <li>Understanding Success Criterion 2.2.4 | W3C Understanding WCAG 2.0</li>          <li>Understanding Success Criterion 3.2.5 | W3C Understanding WCAG 2.0</li>        </ul>      </li>    </ul>"
       },
       {
         "name": "name",
@@ -20626,7 +20628,7 @@
       },
       {
         "name": "height",
-        "description": "<p>The height of the displayed resource, in <a href= class= rel=>CSS pixels. -- (Absolute values only. <a href= class= rel=>NO percentages)</p>"
+        "description": "<p>The height of the displayed resource, in CSS pixels. -- (Absolute values only. NO percentages)</p>"
       },
       {
         "name": "name",
@@ -20646,7 +20648,7 @@
       },
       {
         "name": "width",
-        "description": "<p>The width of the display resource, in <a href= class= rel=>CSS pixels. -- (Absolute values only. <a href= class= rel=>NO percentages)</p>"
+        "description": "<p>The width of the display resource, in CSS pixels. -- (Absolute values only. NO percentages)</p>"
       }
     ]
   },
@@ -23965,7 +23967,7 @@
       },
       {
         "name": "nomodule",
-        "description": "<p>This Boolean attribute is set to indicate that the script should not be executed in browsers that support <a href= class= rel=>ES2015 modules — in effect, this can be used to serve fallback scripts to older browsers that do not support modular JavaScript code.</p>"
+        "description": "<p>This Boolean attribute is set to indicate that the script should not be executed in browsers that support ES2015 modules — in effect, this can be used to serve fallback scripts to older browsers that do not support modular JavaScript code.</p>"
       },
       {
         "name": "nonce",
@@ -30865,7 +30867,7 @@
       },
       {
         "name": "srclang",
-        "description": "<p>Language of the track text data. It must be a valid <a href= class= rel=>BCP 47 language tag. If the <code>kind</code> attribute is set to <code>subtitles</code>, then <code>srclang</code> must be defined.</p>"
+        "description": "<p>Language of the track text data. It must be a valid BCP 47 language tag. If the <code>kind</code> attribute is set to <code>subtitles</code>, then <code>srclang</code> must be defined.</p>"
       }
     ]
   },
@@ -31568,7 +31570,7 @@
       },
       {
         "name": "controlslist \n    Experimental\n",
-        "description": "<p>The <a href= class= rel=><code>controlslist</code> attribute, when specified, helps the browser select what controls to show on the media element whenever the browser shows its own set of controls (e.g. when the <code>controls</code> attribute is specified).</p>    <p>The allowed values are <code>nodownload</code>, <code>nofullscreen</code> and <code>noremoteplayback</code>.</p>    <p>Use the <code>disablepictureinpicture</code> attribute if you want to disable the Picture-In-Picture mode (and the control).</p>"
+        "description": "<p>The <code>controlslist</code> attribute, when specified, helps the browser select what controls to show on the media element whenever the browser shows its own set of controls (e.g. when the <code>controls</code> attribute is specified).</p>    <p>The allowed values are <code>nodownload</code>, <code>nofullscreen</code> and <code>noremoteplayback</code>.</p>    <p>Use the <code>disablepictureinpicture</code> attribute if you want to disable the Picture-In-Picture mode (and the control).</p>"
       },
       {
         "name": "crossorigin",
@@ -31580,11 +31582,11 @@
       },
       {
         "name": "disableremoteplayback \n    Experimental\n",
-        "description": "<p>A Boolean attribute used to disable the capability of remote playback in devices that are attached using wired (HDMI, DVI, etc.) and wireless technologies (Miracast, Chromecast, DLNA, AirPlay, etc).</p>    <p>In Safari, you can use <a href= class= rel=><code>x-webkit-airplay=</code> as a fallback.</p>"
+        "description": "<p>A Boolean attribute used to disable the capability of remote playback in devices that are attached using wired (HDMI, DVI, etc.) and wireless technologies (Miracast, Chromecast, DLNA, AirPlay, etc).</p>    <p>In Safari, you can use <code>x-webkit-airplay=</code> as a fallback.</p>"
       },
       {
         "name": "height",
-        "description": "<p>The height of the video's display area, in <a href= class= rel=>CSS pixels (absolute values only; <a href= class= rel=>no percentages).</p>"
+        "description": "<p>The height of the video's display area, in CSS pixels (absolute values only; no percentages).</p>"
       },
       {
         "name": "loop",
@@ -31612,7 +31614,7 @@
       },
       {
         "name": "width",
-        "description": "<p>The width of the video's display area, in <a href= class= rel=>CSS pixels (absolute values only; <a href= class= rel=>no percentages).</p>"
+        "description": "<p>The width of the video's display area, in CSS pixels (absolute values only; no percentages).</p>"
       }
     ]
   },
@@ -32462,4 +32464,4 @@
       }
     }
   }
-}]
+},
